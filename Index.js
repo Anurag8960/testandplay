@@ -18,7 +18,7 @@ const fetchProducts = async () => {
       // Update state with fetched products
       setProducts(data.products);
     } catch (error) {
-      console.error('Error fetching products:', error);
+      console.error('Error fetching product:', error);
     }
   };
   
