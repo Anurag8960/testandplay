@@ -10,6 +10,8 @@ const fetchProducts = async () => {
       const contentType = response.headers.get('content-type');
       if (!contentType || !contentType.includes('application/json')) {
         throw new Error('Response is not in JSON format');
+      }else{
+        
       }
   
       // Parse response JSON
