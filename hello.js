@@ -9,4 +9,6 @@
     }
     if(false){
         console.log("Hello Hi")
+    }else{
+        console.log("Hello nothing to do!")
     }
