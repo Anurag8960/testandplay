@@ -7,3 +7,6 @@
     if(true){
         console.log("Hello")
     }
+    if(false){
+        console.log("Hello Hi")
+    }
