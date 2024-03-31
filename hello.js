@@ -3,3 +3,7 @@
     if (!contentType || !contentType.includes('application/json')) {
       throw new Error('Response is not in JSON format');
     }
+
+    if(true){
+        console.log("Hello")
+    }
